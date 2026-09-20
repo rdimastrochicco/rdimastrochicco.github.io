@@ -727,6 +727,16 @@ footer a:hover {
         serif;
 }
 
+/* ============================================================
+   RESEARCH PAPERS WITHOUT A FIGURE
+
+   Allows the abstract to use the full available width.
+   ============================================================ */
+
+.paper-body.no-figure {
+    grid-template-columns: 1fr;
+} 
+
 
 /* ============================================================
    10. TEACHING + CONTACT PAGES
