@@ -3,40 +3,56 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
 
     <!-- Browser tab title -->
-    <title>Research — Raffaella Dimastrochicco</title>
+    <title>Research — Alexandra Müller</title>
 
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+        rel="stylesheet"
+        href="assets/css/style.css"
+    >
+
 </head>
 
 
 <body>
 
-    <div class="wrap research-page">
 
+    <!-- ========================================================
+         HEADER + NAVIGATION
+         ======================================================== -->
 
-        <!-- =====================================================
-             NAVIGATION
-             ===================================================== -->
+    <div class="wrap">
 
         <header>
 
             <nav class="nav">
 
-                <!-- Clicking your name returns to the homepage -->
-                <a class="brand" href="index.html">
-                    Raffaella Dimastrochicco
+                <!-- Name / Home button -->
+                <a
+                    class="brand"
+                    href="index.html"
+                >
+                    Alexandra Müller
                 </a>
 
+
+                <!-- Navigation -->
                 <div class="navlinks">
 
-                    <!-- "active" highlights the current page -->
-                    <a class="active" href="research.html">
+                    <!-- Current page -->
+                    <a
+                        class="active"
+                        href="research.html"
+                    >
                         Research
                     </a>
 
@@ -54,276 +70,536 @@
 
         </header>
 
+    </div>
 
-        <!-- =====================================================
-             RESEARCH BANNER
-             ===================================================== -->
 
-        <section class="banner">
 
-            <!--
-                RESEARCH BANNER IMAGE
+    <!-- ========================================================
+         RESEARCH BANNER
+         ======================================================== -->
 
-                Add your image here:
-                assets/images/research-banner.jpg
+    <section class="banner">
 
-                The title "Research" appears on top of the image.
-            -->
+        <!--
+            Current banner background.
 
-            <img
-                src="assets/images/research-banner.jpg"
-                alt="Research banner"
+            This is currently a gradient rather than an image.
+            Leave unchanged to preserve the current appearance.
+        -->
+
+        <div
+            style="
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(
+                    120deg,
+                    #6d655a,
+                    #cdb08d 50%,
+                    #7f7768
+                );
+            "
+        ></div>
+
+
+        <!-- Banner title -->
+        <h1>
+            Research
+        </h1>
+
+    </section>
+
+
+
+    <!-- ========================================================
+         RESEARCH PROJECTS
+         ======================================================== -->
+
+    <main class="wrap research-list">
+
+
+
+        <!-- ====================================================
+             PAPER 1
+             ==================================================== -->
+
+        <article class="paper">
+
+
+            <!-- CLICKABLE PAPER HEADER -->
+
+            <div
+                class="paper-head"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
             >
 
-            <h1>
-                Research
-            </h1>
+                <div>
 
-        </section>
-
-
-        <!-- =====================================================
-             RESEARCH INTRODUCTION
-             ===================================================== -->
-
-        <section class="research-intro">
-
-            <p>
-                My research lies at the intersection of labour economics,
-                family economics, and applied microeconomics.
-            </p>
-
-        </section>
+                    <!-- EDIT PAPER TITLE HERE -->
+                    <h2>
+                        Parental Leave Reforms and Fertility Regret
+                    </h2>
 
 
-        <!-- =====================================================
-             RESEARCH PROJECTS
-             ===================================================== -->
-
-        <section class="papers">
-
-
-            <!-- =================================================
-                 PAPER 1
-                 ================================================= -->
-
-            <article class="paper">
-
-                <!-- CLICKABLE PAPER HEADER -->
-
-                <button
-                    class="paper-toggle"
-                    aria-expanded="false"
-                >
-
-                    <span class="paper-heading">
-
-                        <!-- Paper title -->
-                        <strong>
-                            Fertility Regret and Parental Leave
-                        </strong>
-
-                        <!-- Authors / status / year -->
-                        <small>
-                            Alexandra Müller · Working Paper · 2026
-                        </small>
-
-                    </span>
-
-                    <!-- Arrow automatically rotates when opened -->
-                    <span class="arrow">
-                        →
-                    </span>
-
-                </button>
-
-
-                <!-- EXPANDED CONTENT -->
-
-                <div class="paper-details">
-
-                    <!-- Abstract -->
-                    <div class="abstract">
-
-                        <h3>
-                            Abstract
-                        </h3>
-
-                        <p>
-                            Replace this text with the abstract of your paper.
-                            This section becomes visible when a visitor clicks
-                            on the paper title or arrow.
-                        </p>
-
-
-                        <!-- Optional link to the full paper -->
-                        <a
-                            class="paper-link"
-                            href="#"
-                        >
-                            Read the full paper →
-                        </a>
-
+                    <!-- EDIT STATUS / YEAR HERE -->
+                    <div class="meta">
+                        Working paper · 2026
                     </div>
 
 
-                    <!-- Main figure -->
-                    <div class="paper-figure">
-
-                        <!--
-                            Replace with your actual figure:
-
-                            assets/images/paper-1-figure.png
-                        -->
-
-                        <img
-                            src="assets/images/paper-1-figure.png"
-                            alt="Main figure from Fertility Regret and Parental Leave"
-                        >
-
+                    <!-- EDIT AUTHORS HERE -->
+                    <div class="authors">
+                        Müller, A.
                     </div>
 
                 </div>
 
-            </article>
+
+                <!-- Expansion arrow -->
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
 
 
-            <!-- =================================================
-                 PAPER 2
-                 Copy this whole <article> block for new papers.
-                 ================================================= -->
+            <!-- EXPANDED PAPER CONTENT -->
 
-            <article class="paper">
+            <div class="paper-body">
 
-                <button
-                    class="paper-toggle"
-                    aria-expanded="false"
-                >
 
-                    <span class="paper-heading">
+                <!-- LEFT SIDE: ABSTRACT -->
 
-                        <strong>
-                            Second Research Project
-                        </strong>
+                <div>
+
+                    <h3>
+                        Abstract
+                    </h3>
+
+                    <!-- EDIT ABSTRACT HERE -->
+                    <p>
+                        Add the paper abstract here. The layout is designed
+                        for a concise abstract that explains the research
+                        question, empirical strategy, and main result.
+                    </p>
+
+
+                    <!-- EDIT PAPER LINK HERE -->
+                    <a
+                        class="paper-link"
+                        href="#"
+                    >
+                        Read the full paper ↗
+                    </a>
+
+                </div>
+
+
+                <!-- RIGHT SIDE: MAIN FIGURE -->
+
+                <div class="figure">
+
+                    <!--
+                        FIGURE PLACEHOLDER
+
+                        This can later be replaced with your actual figure.
+                    -->
+
+                    <div class="figure-placeholder">
+
+                        Main figure
+
+                        <br>
 
                         <small>
-                            Alexandra Müller · Work in Progress · 2026
+                            Replace with an image file
                         </small>
-
-                    </span>
-
-                    <span class="arrow">
-                        →
-                    </span>
-
-                </button>
-
-
-                <div class="paper-details">
-
-                    <div class="abstract">
-
-                        <h3>
-                            Abstract
-                        </h3>
-
-                        <p>
-                            Add the abstract or short description of your
-                            second research project here.
-                        </p>
-
-                        <a
-                            class="paper-link"
-                            href="#"
-                        >
-                            Read more →
-                        </a>
 
                     </div>
 
 
-                    <div class="paper-figure">
+                    <!-- EDIT FIGURE CAPTION HERE -->
+                    <p class="caption">
 
-                        <img
-                            src="assets/images/paper-2-figure.png"
-                            alt="Main figure from second research project"
-                        >
+                        <strong>
+                            Figure 1.
+                        </strong>
 
+                        Add a short figure caption here.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ====================================================
+             PAPER 2
+
+             This paper is currently OPEN when the page loads.
+             The word "open" below controls this.
+             ==================================================== -->
+
+        <article class="paper open">
+
+
+            <div
+                class="paper-head"
+                role="button"
+                tabindex="0"
+                aria-expanded="true"
+            >
+
+                <div>
+
+                    <!-- EDIT PAPER TITLE HERE -->
+                    <h2>
+                        Childcare Availability and Maternal Labor Supply
+                    </h2>
+
+
+                    <!-- EDIT STATUS / YEAR HERE -->
+                    <div class="meta">
+                        Working paper · 2025
+                    </div>
+
+
+                    <!-- EDIT AUTHORS HERE -->
+                    <div class="authors">
+                        Müller, A. &amp; Schneider, L.
                     </div>
 
                 </div>
 
-            </article>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
 
 
-            <!-- =================================================
-                 PAPER 3
-                 ================================================= -->
+            <!-- EXPANDED PAPER CONTENT -->
 
-            <article class="paper">
+            <div class="paper-body">
 
-                <button
-                    class="paper-toggle"
-                    aria-expanded="false"
-                >
 
-                    <span class="paper-heading">
+                <!-- LEFT SIDE: ABSTRACT -->
 
-                        <strong>
-                            Third Research Project
-                        </strong>
+                <div>
+
+                    <h3>
+                        Abstract
+                    </h3>
+
+                    <!-- EDIT ABSTRACT HERE -->
+                    <p>
+                        This paper examines the causal impact of childcare
+                        availability on maternal labor supply. Replace this
+                        placeholder with the actual abstract once the research
+                        content is ready.
+                    </p>
+
+
+                    <!-- EDIT PAPER LINK HERE -->
+                    <a
+                        class="paper-link"
+                        href="#"
+                    >
+                        Read the full paper ↗
+                    </a>
+
+                </div>
+
+
+                <!-- RIGHT SIDE: MAIN FIGURE -->
+
+                <div class="figure">
+
+                    <div class="figure-placeholder">
+
+                        Main figure
+
+                        <br>
 
                         <small>
-                            Alexandra Müller · Work in Progress
+                            e.g. event-study plot
                         </small>
-
-                    </span>
-
-                    <span class="arrow">
-                        →
-                    </span>
-
-                </button>
-
-
-                <div class="paper-details">
-
-                    <div class="abstract">
-
-                        <h3>
-                            Abstract
-                        </h3>
-
-                        <p>
-                            Add the abstract or project description here.
-                        </p>
 
                     </div>
 
 
-                    <div class="paper-figure">
+                    <!-- EDIT FIGURE CAPTION HERE -->
+                    <p class="caption">
 
-                        <img
-                            src="assets/images/paper-3-figure.png"
-                            alt="Main figure from third research project"
-                        >
+                        <strong>
+                            Figure 1.
+                        </strong>
 
+                        Add the figure caption here.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ====================================================
+             PAPER 3
+             ==================================================== -->
+
+        <article class="paper">
+
+
+            <div
+                class="paper-head"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+            >
+
+                <div>
+
+                    <!-- EDIT PAPER TITLE HERE -->
+                    <h2>
+                        The Long-Run Effects of Early Childhood Interventions
+                    </h2>
+
+
+                    <!-- EDIT STATUS HERE -->
+                    <div class="meta">
+                        Work in progress
+                    </div>
+
+
+                    <!-- EDIT AUTHORS HERE -->
+                    <div class="authors">
+                        Müller, A.
                     </div>
 
                 </div>
 
-            </article>
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
 
 
-        </section>
+            <!-- EXPANDED PAPER CONTENT -->
+
+            <div class="paper-body">
 
 
-        <!-- =====================================================
+                <!-- ABSTRACT -->
+
+                <div>
+
+                    <h3>
+                        Abstract
+                    </h3>
+
+                    <!-- EDIT ABSTRACT HERE -->
+                    <p>
+                        Add abstract here.
+                    </p>
+
+                </div>
+
+
+                <!-- FIGURE -->
+
+                <div class="figure">
+
+                    <div class="figure-placeholder">
+                        Main figure
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ====================================================
+             PAPER 4
+             ==================================================== -->
+
+        <article class="paper">
+
+
+            <div
+                class="paper-head"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+            >
+
+                <div>
+
+                    <!-- EDIT PAPER TITLE HERE -->
+                    <h2>
+                        Family Policies and Gender Norms
+                    </h2>
+
+
+                    <!-- EDIT STATUS HERE -->
+                    <div class="meta">
+                        Work in progress
+                    </div>
+
+
+                    <!-- EDIT AUTHORS HERE -->
+                    <div class="authors">
+                        Müller, A. &amp; Rossi, P.
+                    </div>
+
+                </div>
+
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
+
+
+            <!-- EXPANDED PAPER CONTENT -->
+
+            <div class="paper-body">
+
+
+                <!-- ABSTRACT -->
+
+                <div>
+
+                    <h3>
+                        Abstract
+                    </h3>
+
+                    <!-- EDIT ABSTRACT HERE -->
+                    <p>
+                        Add abstract here.
+                    </p>
+
+                </div>
+
+
+                <!-- FIGURE -->
+
+                <div class="figure">
+
+                    <div class="figure-placeholder">
+                        Main figure
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ====================================================
+             PHD DISSERTATION
+             ==================================================== -->
+
+        <article class="paper">
+
+
+            <div
+                class="paper-head"
+                role="button"
+                tabindex="0"
+                aria-expanded="false"
+            >
+
+                <div>
+
+                    <!-- EDIT DISSERTATION TITLE HERE -->
+                    <h2>
+                        Essays on Families, Labour Markets, and Well-Being
+                    </h2>
+
+
+                    <!-- EDIT TYPE / STATUS HERE -->
+                    <div class="meta">
+                        PhD dissertation
+                    </div>
+
+
+                    <!-- EDIT AUTHOR HERE -->
+                    <div class="authors">
+                        Müller, A.
+                    </div>
+
+                </div>
+
+
+                <div class="arrow">
+                    →
+                </div>
+
+            </div>
+
+
+            <!-- EXPANDED DISSERTATION CONTENT -->
+
+            <div class="paper-body">
+
+
+                <!-- OVERVIEW -->
+
+                <div>
+
+                    <h3>
+                        Overview
+                    </h3>
+
+                    <!-- EDIT DISSERTATION OVERVIEW HERE -->
+                    <p>
+                        Add dissertation overview here.
+                    </p>
+
+                </div>
+
+
+                <!-- OPTIONAL FIGURE -->
+
+                <div class="figure">
+
+                    <div class="figure-placeholder">
+                        Optional figure
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ====================================================
              FOOTER
-             ===================================================== -->
+             ==================================================== -->
 
         <footer>
 
+            <!-- EDIT EMAIL ADDRESS HERE -->
             <a href="mailto:alexandra.mueller@uzh.ch">
                 ✉ &nbsp; alexandra.mueller@uzh.ch
             </a>
@@ -331,11 +607,19 @@
         </footer>
 
 
-    </div>
+    </main>
 
 
-    <!-- JavaScript controls the expandable papers -->
+
+    <!-- ========================================================
+         JAVASCRIPT
+
+         Controls opening/closing the research papers.
+         Normally you do not need to edit this.
+         ======================================================== -->
+
     <script src="assets/js/site.js"></script>
+
 
 </body>
 
