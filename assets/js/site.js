@@ -1,0 +1,1 @@
+document.querySelectorAll('.paper-head').forEach(head=>{head.addEventListener('click',()=>{const paper=head.parentElement;paper.classList.toggle('open');head.setAttribute('aria-expanded',paper.classList.contains('open'));});});
