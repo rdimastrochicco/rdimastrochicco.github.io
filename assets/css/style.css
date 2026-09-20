@@ -462,6 +462,27 @@ footer a:hover {
 
 
 /* ============================================================
+   RESEARCH BANNER — PHOTO CREDIT
+   ============================================================ */
+
+.photo-credit {
+    position: absolute;
+    z-index: 2;
+
+    top: 12px;
+    right: 18px;
+
+    color: white;
+
+    font-family: Inter, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+
+    opacity: 0.8;
+}
+
+
+/* ============================================================
    8. RESEARCH PAGE — PAPER LIST
    ============================================================ */
 
