@@ -798,6 +798,34 @@ footer a:hover {
         serif;
 }
 
+/* ============================================================
+   TEACHING COURSES
+
+   Styled similarly to the paper entries on the Research page.
+   ============================================================ */
+
+.course {
+    padding: 30px 12px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+
+/* Course title */
+
+.course h2 {
+    font: 500 24px Lora, serif;
+    margin: 0 0 9px;
+}
+
+
+/* University · Term · Role */
+
+.course-meta {
+    font: 400 14px Lora, serif;
+    color: var(--text);
+}
+
 
 /* ============================================================
    11. CONTACT CARD
