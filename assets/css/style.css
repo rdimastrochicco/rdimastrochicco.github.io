@@ -760,70 +760,27 @@ footer a:hover {
 
 
 /* ============================================================
-   10. TEACHING + CONTACT PAGES
+   TEACHING PAGE
    ============================================================ */
 
-.simple-page {
 
-    max-width: 850px;
+/*
+   Space between the banner and the first course.
 
-    padding:
-        110px
-        0
-        150px;
+   140px matches the spacing used on the Research page.
+*/
+
+.teaching-list {
+    padding: 140px 0 100px;
 }
 
 
-/* Main page title */
+/*
+   Individual course.
 
-.simple-page h1 {
-
-    margin:
-        0
-        0
-        45px;
-
-    font:
-        500
-        58px
-        Lora,
-        serif;
-}
-
-
-/* Section titles */
-
-.simple-page h2 {
-
-    margin:
-        55px
-        0
-        12px;
-
-    font:
-        500
-        27px
-        Lora,
-        serif;
-}
-
-
-/* General text */
-
-.simple-page p,
-.simple-page li {
-
-    font:
-        18px / 1.7
-        Lora,
-        serif;
-}
-
-/* ============================================================
-   TEACHING COURSES
-
-   Styled similarly to the paper entries on the Research page.
-   ============================================================ */
+   The border-top creates the horizontal line above the course,
+   just like the paper entries on the Research page.
+*/
 
 .course {
     padding: 30px 12px;
@@ -846,7 +803,6 @@ footer a:hover {
     font: 400 14px Lora, serif;
     color: var(--text);
 }
-
 
 /* ============================================================
    11. CONTACT CARD
